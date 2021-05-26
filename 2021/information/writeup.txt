@@ -1,0 +1,9 @@
+What I learnt:
+
+binwalk is a tool used to check for code or embedded files in a binary image, so i can use this to check for steganography.
+
+strings is a linux tool used to check for strings in binary images. Can be used similarly.
+
+hexeditors allow us to edit binary files by editing each individual bytes. I used this to see some code embedded in the image.
+
+This code had two suspicious links, which I then decoded to base64, and the second link was the required flag.

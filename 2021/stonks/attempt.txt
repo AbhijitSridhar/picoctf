@@ -1,0 +1,5 @@
+Not completed yet, went through some walkthroughs.
+
+Seems to be vulnerable to a format string attack, through the scanf function which takes input after we choose to buy stocks.
+
+
